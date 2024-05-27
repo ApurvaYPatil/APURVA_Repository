@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>youtube.com</title>
+
+    <style>
+        .head {
+            border-style: groove;
+            border-width: 5px;
+            border-color:  rgb(186, 0, 0);
+            font-size: 25px;
+            font-family: 'Times New Roman', Times, serif;
+            background-color: black;
+        }
+
+        table,
+        th,
+        td,
+        tr {
+            border-style: groove;
+            border-width: 5px;
+            border-color: rgb(186, 0, 0);
+            height: 20vh;
+            width: 1400px;
+            background-color: black;
+            color: rgb(3, 62, 111);
+
+        }
+        .one{
+            font-size: 25px;
+            font-family: 'Times New Roman', Times, serif;
+            color: rgb(3, 62, 111);
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <table>
+        <!-- header -->
+        <tr>
+            <th colspan="3" class="head">Main video</th>
+            <th class="head">More videos</th>
+        </tr>
+        <!-- first row -->
+        <tr>
+            <td colspan="3" rowspan="3">
+                <video height="550px" controls >
+                    <source  src="/Users/enjoy_programming_d/Documents/APPU_HTML_PROJECT/images/3195394-uhd_3840_2160_25fps.mp4">
+                </video>
+            </td>
+            <td><video height="200px" src="/Users/enjoy_programming_d/Documents/APPU_HTML_PROJECT/images/3209828-uhd_3840_2160_25fps.mp4" controls></video></td>
+        </tr>
+        <!-- second row -->
+        <tr>
+            <td colspan="3">
+                <video height="200px" src="/Users/enjoy_programming_d/Documents/APPU_HTML_PROJECT/images/4178359-hd_1906_1080_25fps.mp4" controls></video>
+            </td>
+        </tr>
+        <!-- third row -->
+        <tr>
+            <td colspan="3">
+                <video height="200px" src="/Users/enjoy_programming_d/Documents/APPU_HTML_PROJECT/images/5532774-uhd_4096_2160_25fps.mp4" controls></video>
+            </td>
+        </tr>
+        <!-- footer -->
+        <tfoot>
+        <tr class="one">
+            <td>Follow Us On:</td>
+            <td>Facebook</td>
+            <td>Twitter</td>
+            <td>Instagram</td>
+        </tr>
+        </tfoot>
+
+    </table>
+
+</body>
+
+</html>
