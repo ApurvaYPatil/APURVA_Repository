@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>grid</title>
+
+    <style>
+        .main-container {
+            display: grid;
+            grid-template-rows: 1fr 1fr 1fr;
+
+            height: 90vh;
+            width: 60vw;
+        }
+
+        .one {
+            background-color: black;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+
+        .two {
+            background-color: orangered;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+
+        }
+
+        .three {
+            background-color: darkblue;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+
+        .top-one {
+            background-color: green;
+        }
+
+        .top-two {
+            background-color: darkred;
+        }
+
+        .mid-one {
+            background-color: yellow;
+        }
+
+        .mid-two {
+            background-color: rgb(131, 4, 162);
+        }
+
+        .mid-three {
+            background-color: rgb(180, 75, 0);
+        }
+
+        .bottom-one {
+            background-color: rgb(1, 73, 121);
+        }
+
+        .bottom-two{
+            background-color: rgb(0, 69, 0);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main-container">
+
+        <!-- one-->
+        <div class="one">
+            <div class="top-one"></div>
+            <div class="top-two"></div>
+        </div>
+
+        <!-- two -->
+        <div class="two">
+            <div class="mid-one"></div>
+            <div class="mid-two"></div>
+            <div class="mid-three"></div>
+        </div>
+
+        <!-- three -->
+        <div class="three">
+            <div class="bottom-one"></div>
+            <div class="bottom-two"></div>
+        </div>
+    </div>
+
+<hr>
+
+<br>
+<br>
+<a href="gridtwo.html">see more</a>
+
+</body>
+
+</html>

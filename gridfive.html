@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>grid 5</title>
+
+    <style>
+        .body {
+            margin: 0;
+        }
+
+        .main-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            height: 900px;
+            background-color: aqua;
+        }
+
+        .first {
+            background-color: black;
+        }
+
+        .second {
+            background-color: blueviolet;
+            display: grid;
+            grid-template-rows: 1fr 1fr;
+        }
+
+        .third {
+            background-color: darkolivegreen;
+            display: grid;
+            grid-template-rows: 1fr 1fr 1fr;
+        }
+
+        .one {
+            background-color: rgb(3, 62, 111);
+        }
+
+        .two {
+            background-color: rgb(0, 73, 0);
+        }
+        .a{
+            background-color: orangered;
+        }
+        .b{
+            background-color: darkorange;
+        }
+        .c{
+            background-color: rgb(179, 63, 1) ;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- main container -->
+    <div class="main-container">
+
+        <!-- first column -->
+        <div class="first"></div>
+
+        <!-- second column -->
+        <div class="second">
+            <div class="one"></div>
+            <div class="two"></div>
+        </div>
+
+        <!-- third column -->
+        <div class="third">
+            <div class="a"></div>
+            <div class="b"></div>
+            <div class="c"></div>
+        </div>
+    </div>
+
+<br>
+<br>
+<hr>
+<a href="gridsix.html">See more</a>
+<br>
+<br>
+<a href="gridfour.html">See LESS</a>
+<br>
+
+</body>
+
+</html>

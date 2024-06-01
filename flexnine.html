@@ -1,174 +1,154 @@
 <!DOCTYPE html>
-
 <html>
 
 <head>
-
-    <title>flex nine</title>
-
     <style>
-        body {
-            margin: 0;
+        .main {
+            background-color: gray;
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            flex-direction: row;
         }
 
-        .supreme-container-one {
-            height: 1200px;
+        .top {
             background-color: aqua;
-            display: flex;
-            flex-direction: column;
-            width: 70vw;
-        }
-
-        .main-container-one {
-            height: 900px;
-            width: 70vw;
-            display: flex;
-            flex-direction: row;
-            background-color: blanchedalmond;
-        }
-
-        .main-container-two {
-            height: 300px;
-            width: 70vw;
-            background-color: black;
-        }
-
-        .one {
-            height: 900px;
-            width: 30vw;
-            background-color: orangered;
-        }
-
-        .two {
-            height: 900px;
-            width: 40vw;
-            background-color: chocolate;
+            height: 100vh;
+            width: 33.33vw;
             display: flex;
             flex-direction: column;
         }
 
-        .two-one {
-            height: 500px;
-            width: 40vw;
-            background-color: rgb(0, 73, 0);
-        }
-
-        .two-two {
-            height: 400px;
-            width: 40vw;
-            background-color: rgb(4, 100, 127);
-        }
-
-        .supreme-container-two {
-            height: 1200px;
-            width: 30vw;
-            margin-left: 70vw;
-            display: flex;
-            flex-direction: column;
-            background-color: darkorange;
-        }
-
-        .main-container-three {
-            height: 300px;
-            background-color: darkolivegreen;
-            width: 30vw;
-        }
-
-        .main-container-four {
-            height: 600px;
-            width: 30vw;
-            background-color: brown;
-            display: flex;
-            flex-direction: row;
-        }
-
-        .four-one {
-            background-color: darkred;
-            height: 600px;
-            width: 30vw;
-        }
-
-        .four-two {
-            background-color: chartreuse;
-            height: 600px;
-            width: 30vw;
-            display: flex;
-            flex-direction: column;
-        }
-
-        .a {
-            height: 200px;
-            width: 15 vw;
+        .second {
             background-color: yellow;
+            height: 80vh;
+            width: 43.33vw;
+            display: flex;
+            flex-direction: column;
         }
 
-        .b {
-            height: 200px;
-            width: 15vw;
-            background-color: darkblue;
+        .three {
+            background-color: brown;
+            height: 100vh;
+            width: 23.34vw;
+            display: flex;
+            flex-direction: column;
         }
 
-        .c {
-            height: 200px;
-            width: 15vw;
-            background-color: limegreen;
+        .top-one {
+            background-color: green;
+            height: 80vh;
         }
 
-        .main-container-five {
-            width: 30vw;
-            height: 300px;
-            background-color: darkcyan;
+        .top-two {
+            background-color: palegreen;
+            height: 20vh;
+            width: 80vw;
         }
 
-        .big {
+        .sec-one {
+            background-color: maroon;
+            height: 40vh;
+            width: 43.33vw;
+        }
+
+        .sec-two {
+            background-color: yellowgreen;
+            height: 40vh;
+            width: 43.33vw;
+        }
+
+        .th-one {
+            background-color: teal;
+            height: 20vh;
+            width: 23.34vw;
+        }
+
+        .th-two {
+            background-color: purple;
+            height: 60vh;
+            width: 23.34vw;
             display: flex;
             flex-direction: row;
-            height: 1200px;
-            background-color: crimson;
+
+        }
+
+        .col-one {
+            background-color: palevioletred;
+            height: 20vh;
+            width: 11.67vw;
+
+        }
+
+        .col-two {
+            background-color: rgb(81, 5, 30);
+            height: 20vh;
+            width: 11.67vw;
+        }
+
+        .col-three {
+            background-color: turquoise;
+            height: 20vh;
+            width: 11.67vw;
+        }
+
+        .last {
+            background-color: gold;
+            height: 20vh;
+        }
+
+        .bottom {
+            background-color: rgb(3, 63, 35);
+            height: 60vh;
+            width: 11.67vw;
+        }
+
+        .bot-one {
+            background-color: hotpink;
+            height: 60vh;
+            width: 11.67vw;
+            display: flex;
+            flex-direction: column;
+
         }
     </style>
-
 </head>
 
 <body>
-    
-        <!-- supreme 1 -->
-        <div class="supreme-container-one">
-
-            <!-- main one -->
-            <div class="main-container-one">
-                <!-- 1 -->
-                <div class="one"></div>
-                <!-- 2 -->
-                <div class="two">
-                    <div class="two-one"></div>
-                    <div class="two-two"></div>
+    <div class="main">
+        <!-- top  -->
+        <div class="top">
+            <!-- top section -->
+            <div class="top-one"></div>
+            <div class="top-two"></div>
+        </div>
+        <!-- second -->
+        <div class="second">
+            <!-- second sec -->
+            <div class="sec-one"></div>
+            <div class="sec-two"></div>
+        </div>
+        <!-- three -->
+        <div class="three">
+            <!-- three secion main col -->
+            <div class="th-one"></div>
+            <!-- 2nd col -->
+            <div class="th-two">
+                <!-- add two row -->
+                <div class="bottom"></div>
+                <!-- add 3 col -->
+                <div class="bot-one">
+                    <div class="col-one"></div>
+                    <div class="col-two"></div>
+                    <div class="col-three"></div>
                 </div>
             </div>
-
-            <!-- main two -->
-            <div class="main-container-two"></div>
+            <!-- last box -->
+            <div class="last"></div>
         </div>
-        <!-- supreme 2 -->
-        <div class="supreme-container-two">
-            <!-- main three -->
-            <div class="main-container-three"></div>
-            <!-- main four -->
-            <div class="main-container-four">
-                <!-- four 1 -->
-                <div class="four-one"></div>
-                <!-- four 2 -->
-                <div class="four-two">
-                    <div class="a"></div>
-                    <div class="b"></div>
-                    <div class="c"></div>
-                </div>
-            </div>
-            <!-- main five -->
-            <div class="main-container-five"></div>
-        </div>
-   
 
+
+    </div>
 </body>
 
 </html>
